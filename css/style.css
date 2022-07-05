@@ -25,12 +25,42 @@ body {
   color: #ffffff;
   text-align: justify;
 }
-.header a {
-  text-decoration: none;
+.link-button {
   background-color: #ff6347;
   color: #ffffff;
   padding: 15px 20px;
   margin-top: 20px;
-  display: inline-block;
-  border-radius: 7px;
+  border-radius: 5px;
+  border: none;
+}
+.donate-today {
+  text-align: center;
+  margin: auto;
+  padding: 50px 200px;
+}
+.donate-today h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.donate-today p {
+  text-align: justify;
+}
+.donate-taka {
+  display: flex;
+}
+.donate-taka div {
+  text-align: center;
+  box-shadow: 10px 10px 40px #808080;
+  width: 100%;
+  margin: 3%;
+  padding: 50px 20px;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: 900;
+}
+.border-color {
+  background-color: rgba(119, 52, 41, 0.2);
+  border: tomato solid;
+  color: tomato;
 }
