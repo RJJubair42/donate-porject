@@ -128,19 +128,26 @@ body {
 /*Our Donate Plan End css*/
 /*Make Quick Donation Start css*/
 .quick-donation{
-  background-color: rgba(102, 51, 153, 0.3);
+  background-image: url(../images/donation11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
   padding: 10px;
   margin: 50px 0px ;
 }
 .list-iteam{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 700;
   margin: 40px;
+  color: #000000;
 }
 .donation-header{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 40px;
+  color: #000000;
+  font-weight: 700;
 }
 .mail{
   text-align: center;
@@ -153,6 +160,7 @@ body {
 input[type=text], select{
   text-align: center;
   width: 50%;
+  color: #000000;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
