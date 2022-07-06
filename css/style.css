@@ -28,7 +28,7 @@ body {
 .link-button {
   background-color: #ff6347;
   color: #ffffff;
-  padding: 15px 20px;
+  padding: 15px 40px;
   margin-top: 20px;
   border-radius: 5px;
   border: none;
@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.flex-container > div{
+.flex-container > div {
   box-shadow: 10px 10px 40px #808080;
   background-color: #f1f1f1;
   width: 100px;
@@ -66,4 +66,68 @@ body {
   background-color: rgba(119, 52, 41, 0.2);
   border: tomato solid;
   color: tomato;
+}
+.input-donate {
+  text-align: center;
+  margin-top: 50px;
+}
+.other-amount {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+}
+.horijontal{
+  width: 70%;
+}
+.our-donateion{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 50px ;
+}
+.with-divide h2{
+  font-size: 30px;
+}
+.with-divide{
+  width: 23%;
+  padding: 2%;
+  margin-left: 2%;
+}
+.background1{
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}
+.background2{
+  background-color: rgba(102, 42, 91, 0.2);
+  border-radius: 5px;
+}
+.background3{
+  background-color: rgba(216, 112, 147,0.2);
+}
+.Subscribe-button{
+  text-align: center;
+  background-color: rgba(161, 108, 150, 0.3);
+  padding: 20px;
+  background-size: cover;
+}
+.email{
+  background-color: rgba(80, 78, 78, 0.3);
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+}
+.footer{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer h2{
+  color: #ff6347;
+  font-size: 40px;
 }
