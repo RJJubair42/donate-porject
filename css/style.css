@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/*Header section start css*/
 .background-image {
   height: 50%;
   background-image: url(../images/donation1.jpg);
@@ -33,6 +34,8 @@ body {
   border-radius: 5px;
   border: none;
 }
+/*Header section End css*/
+/*Donate section Today start css*/
 .donate-today {
   text-align: center;
   margin: auto;
@@ -81,6 +84,8 @@ body {
 .horijontal{
   width: 70%;
 }
+/*Donate section Today End css*/
+/*Our Donate Plan Start css*/
 .our-donateion{
   width: 80%;
   display: flex;
@@ -109,7 +114,7 @@ body {
 } 
 .Subscribe-button{
   text-align: center;
-  background-color: rgba(161, 108, 150, 0.3);
+  background-color: rgba(161, 108, 150, 0.2);
   padding: 50px;
   background-size: cover;
 }
@@ -120,6 +125,52 @@ body {
   border-radius: 5px;
   border: none;
 }
+/*Our Donate Plan End css*/
+/*Make Quick Donation Start css*/
+.quick-donation{
+  background-color: rgba(102, 51, 153, 0.3);
+  padding: 10px;
+  margin: 50px 0px ;
+}
+.list-iteam{
+  text-align: center;
+  font-size: 25px;
+  margin: 40px;
+}
+.donation-header{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.mail{
+  text-align: center;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+}
+input[type=text], select{
+  text-align: center;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+}
+.donation-link-button{
+  display: block;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background-color: #ff6347;
+}
+/*Make Quick Donation End css*/
+/*Footer css Start*/
 .footer{
   font-family: 'Lobster', cursive;
   text-align: center;
@@ -132,3 +183,4 @@ body {
   color: #ff6347;
   font-size: 40px;
 }
+/*Footer css End*/

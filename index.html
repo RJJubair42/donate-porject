@@ -13,18 +13,24 @@
     <link rel="mask-icon"href="favicon/safari-pinned-tab.svg"color="#5bbad5"/>
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <!--link google fonts-->
+    <!--link google fonts start-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"rel="stylesheet"/>
-    <!--Footer Google Fonts-->
+    <!--link google fonts End-->
+    
+    <!--Footer Google Fonts Start-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Splash&display=swap" rel="stylesheet">
-    <!--link css-->
+    <!--Footer Google Fonts End-->
+
+    <!--link css Start-->
     <link rel="stylesheet" href="css/style.css" />
+    <!--link css End-->
   </head>
   <body>
+    <!--Header section start-->
     <section class="background-image">
       <div class="header">
         <h1>Let’s Help Those Who Are More In Need</h1>
@@ -39,6 +45,9 @@
         <button class="link-button">Donate Now</button>
       </div>
     </section>
+    <!--Header section End-->
+
+    <!--Donate section Today start-->
     <section>
       <div class="donate-today">
         <h1>Donate Today</h1>
@@ -67,6 +76,9 @@
         <button class="link-button">Donate Now</button>
       </div>
     </section>
+    <!--Donate section Today End-->
+
+    <!--Our Donate Plan Start-->
     <section>
       <div class="donate-today">
         <h1>Our Donate Plan</h1>
@@ -105,18 +117,43 @@
         </div>
       </div>
     </section>
+    <!--Our Donate Plan End-->
 
-
-
-
-    <section>
-      
+    <!--Make Quick Donation Start-->
+    <section class="quick-donation">
+      <div class="donation-header">
+        <h1>Make Quick Donation</h1>
+      </div>
+      <div class="list-iteam">
+        <label for="name">Your Name</label><br>
+        <input id="name" type="text" placeholder="Your Name"><br>
+        <label for="email">Enter Mail Address</label><br>
+        <input class="mail" id="email" type="email" placeholder="Your Mail"><br>
+        <label for="account">Choose Account</label><br>
+        <select name="account" id="account">
+          <option value="roket">Roket</option>
+          <option value="bkash">Bkash</option>
+          <option value="nogot">Nogot</option>
+        </select><br>
+        <label for="account">Choose Donation</label><br>
+        <select name="donation" id="donation"> <br>
+          <option value="food">Food</option>
+          <option value="education">Education</option>
+          <option value="medicine">Medicine</option>
+          <option value="water">Water</option>
+        </select> <br>
+        <label for="price">Select Price</label><br>
+        <select name="price" id="price"><br>
+          <option value="food">20 taka</option>
+          <option value="medicine">80 taka</option>
+          <option value="water">15 taka</option>
+        </select>
+        <button class="donation-link-button">Make Quick Donation</button>
+      </div>
     </section>
+    <!--Make Quick Donation End-->
 
-
-
-
-
+    <!--Get My Updates Start-->
     <section>
       <div class="donate-today">
         <h1>Get My Updates</h1>
@@ -133,9 +170,13 @@
         <button class="link-button">Subscribe</button>
       </div>
     </section>
+    <!--Get My Updates End-->
+
+    <!--Footer Section Start-->
     <footer class="footer">
       <h2>Be Humbl</h2>
       <p>I’m gonna do it</p>
     </footer>
+    <!--Footer Section End-->
   </body>
 </html>
